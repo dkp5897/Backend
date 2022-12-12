@@ -1,0 +1,28 @@
+{
+    "employee" :[
+        {
+            "name":"Akash",
+            "age" : 25,
+            "skill":"java",
+            "Address":"Lucknow"
+        },
+        {
+            "name":"Deepak",
+            "age" : 25,
+            "skill":"javascript",
+            "Address":"Chandauli"
+        },
+        {
+            "name":"Rajan",
+            "age" : 26,
+            "skill":"html",
+            "Address":"Gorakhpur"
+        },
+        {
+            "name":"Price",
+            "age" : 23,
+            "skill":"css",
+            "Address":"Gazipur"
+        }
+    ]
+}

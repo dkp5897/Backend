@@ -1,0 +1,58 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+============================================================================================================================================
+
+mongodb commands:-
+
+"mongodb commands for database"
+
+1.  To Show all databases:- show dbs
+
+2.  To create a database :- use "database Name"
+
+3.  To see current database :- db
+
+4.  To delete database:- db.dropDatabase()
+
+
+"mongodb commands for collections"
+
+5.  To see all collections of database:- show collections
+
+6.  To create a collection, Name "firstData" :- db.createCollection('firstData')
+
+7.  To delete a collection:-    db."collection Name".drop()
+
+
+"mongodb commands for rows"
+
+1.  To insert a row :- db."collection Name".insert({})
+
+2.  To insert many rows:-  db."collection Name".insertMany([{},{},{}])
+
+3.  To see a row :- db."collection Name".find()
+
+4.  To see a row in a proper way :- db."collection Name".find().pretty()
+
+5.  To search a row with given property:-   db."collection Name".find({})
+
+6.  To see limited number of row:-  db."collection Name".find().limit(2)
+
+7.  To see total number of rors:-   db."collection Name".count()
+
+
+"Update a row"
+

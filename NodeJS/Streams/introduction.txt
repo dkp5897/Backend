@@ -1,0 +1,22 @@
+Streams:- Streams are object that let you read data from a source or write data to a destination in continuus fashion.
+In node js there are four types of streams--
+
+Readable:- stream which is used for read operation
+
+Writable:- stream which is used for write operation
+
+Duplex:-   stream which can be used for both read and write operation
+
+Transform:-A type of Duplex stream where the output is computed on input
+
+================================================================================
+Each type of Streams is an EventEmmiter instance and throws several events at different instance of times. For example, some if the commonly used evants are ---
+
+1.  data:- the evants is fired when there is data is available to read.
+
+2.  end:- the events is fired when there is no more data to read
+
+3.  error:- this events is fired when there is any error recieving or writing data.
+
+4.  finish:- the evants is fired when all the data has been flushed to underlying system.
+
