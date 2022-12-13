@@ -13,6 +13,7 @@ app.use((req,res,next)=>{
     return next();
 })
 
+//mongoose.connect return a promise
 mongoose.connect("mongodb://localhost/Newton")
 .then(()=>{
     console.log("database connection made");
